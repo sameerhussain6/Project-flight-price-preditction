@@ -23,7 +23,7 @@ Data Types and Categorical Variables:
 Data types of each column are checked using df.info().
 Categorical variables are identified and analyzed.
 Frequency distributions and bar plots are created for categorical variables to understand their distribution.
-3.**`Numerical Variables and Outlier Analysis:`**
+- 3.**`Numerical Variables and Outlier Analysis:`**
 Numerical variables are identified and analyzed.
 Box plots are created to visualize the distribution of numerical variables and detect outliers.
 Outliers in 'duration' and 'price' are identified and removed based on the interquartile range (IQR).
