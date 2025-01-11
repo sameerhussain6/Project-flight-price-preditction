@@ -39,7 +39,7 @@ Categorical features are converted into numerical representations using Label En
 -6. **`Feature Selection (Variance Inflation Factor - VIF):`**
 **VIF**is used to detect multicollinearity among features.
 Features with high VIF scores are identified, and the 'flight' feature is dropped to address multicollinearity.
-- 7.**` Model Building and Evaluation:`**
+7.**` Model Building and Evaluation:`**
 **Data Splitting:**
 The dataset is split into training and testing sets using train_test_split from sklearn.model_selection to evaluate model performance on unseen data.
 **Data Scaling:**
