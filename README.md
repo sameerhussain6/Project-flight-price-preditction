@@ -23,13 +23,13 @@ Data Types and Categorical Variables:
 Data types of each column are checked using df.info().
 Categorical variables are identified and analyzed.
 Frequency distributions and bar plots are created for categorical variables to understand their distribution.
-- 3.**`Numerical Variables and Outlier Analysis:`**
+3.**`Numerical Variables and Outlier Analysis:`**
 Numerical variables are identified and analyzed.
 Box plots are created to visualize the distribution of numerical variables and detect outliers.
 Outliers in 'duration' and 'price' are identified and removed based on the interquartile range (IQR).
 **Correlation Analysis:**
 A heatmap is generated using sns.heatmap to visualize the correlation between numerical features. This helps identify relationships between variables.
-- 4.**`Data Visualization:`**
+4.**`Data Visualization:`**
 Line plots are used to examine the relationship between 'airline', 'departure_time', 'stops', and 'days_left' with 'price'.
 Count plots and bar plots are used to visualize the frequency and distribution of various features.
 Insights are drawn from these visualizations to understand patterns and trends in the data.
@@ -39,7 +39,7 @@ Categorical features are converted into numerical representations using Label En
 6. **`Feature Selection (Variance Inflation Factor - VIF):`**
 **VIF**is used to detect multicollinearity among features.
 Features with high VIF scores are identified, and the 'flight' feature is dropped to address multicollinearity.
-- 7.**` Model Building and Evaluation:`**
+7.**` Model Building and Evaluation:`**
 **Data Splitting:**
 The dataset is split into training and testing sets using train_test_split from sklearn.model_selection to evaluate model performance on unseen data.
 **Data Scaling:**
@@ -59,7 +59,7 @@ Visualization of actual vs. predicted values using scatter plots.
 The performance of all four models is compared based on the evaluation metrics.
 **Random Forest** and **XGBoost** are identified as the most promising models based on their high R2 scores and lower error values.
 
-- 8.**` Conclusion:`**
+8.**` Conclusion:`**
 The notebook summarizes the findings, highlighting the best-performing models and their strengths.
 It emphasizes the importance of model selection, evaluation, and potential further improvements through hyperparameter tuning or feature engineering.
 
