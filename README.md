@@ -29,7 +29,7 @@ Box plots are created to visualize the distribution of numerical variables and d
 Outliers in 'duration' and 'price' are identified and removed based on the interquartile range (IQR).
 **Correlation Analysis:**
 A heatmap is generated using sns.heatmap to visualize the correlation between numerical features. This helps identify relationships between variables.
-4.**`Data Visualization:`**
+- 4.**`Data Visualization:`**
 Line plots are used to examine the relationship between 'airline', 'departure_time', 'stops', and 'days_left' with 'price'.
 Count plots and bar plots are used to visualize the frequency and distribution of various features.
 Insights are drawn from these visualizations to understand patterns and trends in the data.
