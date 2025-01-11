@@ -33,13 +33,13 @@ A heatmap is generated using sns.heatmap to visualize the correlation between nu
 Line plots are used to examine the relationship between 'airline', 'departure_time', 'stops', and 'days_left' with 'price'.
 Count plots and bar plots are used to visualize the frequency and distribution of various features.
 Insights are drawn from these visualizations to understand patterns and trends in the data.
- 5. **`Data Preprocessing:`**
+- 5. **`Data Preprocessing:`**
 **Label Encoding:**
 Categorical features are converted into numerical representations using Label Encoding from sklearn.preprocessing. This step is necessary for many machine learning algorithms.
- 6. **`Feature Selection (Variance Inflation Factor - VIF):`**
+- 6. **`Feature Selection (Variance Inflation Factor - VIF):`**
 **VIF**is used to detect multicollinearity among features.
 Features with high VIF scores are identified, and the 'flight' feature is dropped to address multicollinearity.
- 7.**` Model Building and Evaluation:`**
+- 7.**` Model Building and Evaluation:`**
 **Data Splitting:**
 The dataset is split into training and testing sets using train_test_split from sklearn.model_selection to evaluate model performance on unseen data.
 **Data Scaling:**
